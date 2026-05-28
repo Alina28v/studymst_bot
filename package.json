@@ -1,0 +1,21 @@
+{
+  "name": "studymate-ai-bot",
+  "version": "1.0.0",
+  "description": "StudyMate AI — навчальний Telegram бот на Node.js + Groq",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.7.0",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
